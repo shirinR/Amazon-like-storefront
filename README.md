@@ -2,30 +2,14 @@
 
 ## Overview
 
-In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this week. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
+Amazon-like storefront with the MySQL will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 
 Make sure you save and require the MySQL and Inquirer npm packages in your homework files--your app will need them for data input and storage.
 
 
 ### Challenge #1: Customer View (Minimum Requirement)
 
-1. Create a MySQL Database called `bamazon`.
-
-2. Then create a Table inside of that database called `products`.
-
-3. The products table should have each of the following columns:
-
-   * item_id (unique id for each product)
-
-   * product_name (Name of product)
-
-   * department_name
-
-   * price (cost to customer)
-
-   * stock_quantity (how much of the product is available in stores)
-
-4. Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
+4. Populate the database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
 
 5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
 
@@ -50,7 +34,7 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 ### Challenge #2: Manager View (Next Level)
 
-* Create a new Node application called `bamazonManager.js`. Running this application will:
+* Node application called `bamazonManager.js`. Running this application will:
 
   * List a set of menu options:
 
@@ -121,4 +105,4 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 ## Copyright
 
-Coding Boot Camp (C) 2016. All Rights Reserved.
+Shirin Rad © 2017. All Rights Reserved.
